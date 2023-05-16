@@ -1,0 +1,8 @@
+.dark-theme {
+  background-color: #333; /* Set the background color to a dark shade */
+  color: #fff; /* Set the text color to white or a light color */
+}
+  
+.nav-link {
+  white-space: nowrap;
+}
