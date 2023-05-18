@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }} >
       <Navbar>
-          <NavbarText>Theysay 2023</NavbarText>
+          <NavbarText>Free and open-source polling - Theysay 2023</NavbarText>
       </Navbar>
     </div>
   );

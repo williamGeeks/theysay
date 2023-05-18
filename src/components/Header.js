@@ -1,29 +1,16 @@
-import React, { useState } from 'react';
 import {
   Navbar,
   NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  NavbarText,
+  Button
 } from 'reactstrap';
 
 function Header() {
+
   return (
     <div>
-      <Navbar >
-        <NavbarBrand href="#">Theysay</NavbarBrand>
-        <Nav className='ml-auto' style={{ display: 'flex' }} navbar>
-          <NavItem>
-            <NavLink>Yes</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink>Yes</NavLink>
-          </NavItem>
-        </Nav>
-
-          <NavbarText>Simple Text</NavbarText>
-          <NavbarText>Simple Text</NavbarText>
+      <Navbar dark color='dark' expand="md">
+        <NavbarBrand href="/">Theysay</NavbarBrand>
+          <Button>New Post</Button>
       </Navbar>
     </div>
   );
