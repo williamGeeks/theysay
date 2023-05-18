@@ -12,7 +12,7 @@ function Header() {
   return (
     <div>
       <Navbar >
-        <NavbarBrand href="#">theysay</NavbarBrand>
+        <NavbarBrand href="#">Theysay</NavbarBrand>
         <Nav className='ml-auto' style={{ display: 'flex' }} navbar>
           <NavItem>
             <NavLink>Yes</NavLink>
